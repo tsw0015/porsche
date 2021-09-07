@@ -3,15 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './headers/bottom-nav-bar.component';
+import { ShoppingToolsNavBarComponent } from './headers/shopping-tools-nav-bar.component';
 import { TopCarouselComponent } from './headers/top-carousel.component';
 import { TopNavBarComponent } from './headers/top-nav-bar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     BottomNavBarComponent,
-    TopCarouselComponent
+    TopCarouselComponent,
+    ShoppingToolsNavBarComponent
   ],
   imports: [
     BrowserModule
