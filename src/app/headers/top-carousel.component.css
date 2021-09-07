@@ -1,5 +1,10 @@
-.carousel-item {
-    height: 600px;
-    background-position: center center;
-    background-repeat: no-repeat;
+.crop {
+    height: 580px; /* height of container */
+    object-fit: cover;
+}
+
+img 
+{
+   width: 100%;
+   height: auto;
 }
