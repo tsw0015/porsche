@@ -6,6 +6,7 @@ import { BottomNavBarComponent } from './footer/bottom-nav-bar.component';
 import { ShoppingToolsNavBarComponent } from './shopping-tools-nav-bar/shopping-tools-nav-bar.component';
 import { TopCarouselComponent } from './top-carousel/top-carousel.component';
 import { TopNavBarComponent } from './headers/top-nav-bar.component';
+import { LayoutMainComponent } from './layout/layout-main.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { TopNavBarComponent } from './headers/top-nav-bar.component';
     TopNavBarComponent,
     BottomNavBarComponent,
     TopCarouselComponent,
-    ShoppingToolsNavBarComponent
+    ShoppingToolsNavBarComponent,
+    LayoutMainComponent
   ],
   imports: [
     BrowserModule
