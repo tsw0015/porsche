@@ -7,5 +7,7 @@ import { Component } from "@angular/core";
 })
 
 export class TopCarouselComponent {
-
+        head1:string = "Soul, Electrified."
+        sub1:string = "The new all-electric Taycan. From $82,700.*"
+        head2:string = "Sportscar Together Fest 2021."
 }
