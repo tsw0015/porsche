@@ -3,11 +3,11 @@
         <app-top-carousel></app-top-carousel>
     </div>
     <div class="row">
-
-    </div>
-    <div class="row">
         <div *ngfor="let car of cars;">
             <app-car-card model={{car.model}} price ={{car.price}} picture={{car.picture}}>Loading Card</app-car-card>
         </div>
+    </div>
+    <div class="row">
+       <app-bottom-nav-bar>Loading Bottom Nav Bar</app-bottom-nav-bar>
     </div>
 </div>
