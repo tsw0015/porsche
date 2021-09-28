@@ -13,6 +13,7 @@ import { LayoutCompareComponent } from './layout/compare/layout-compare.componen
 import { LayoutHomeComponent } from './layout/home/layout-home.component';
 import { LayoutFinancialComponent } from './layout/financial/layout-financial.component';
 import { LayoutOfferComponent } from './layout/offer/layout-offer.component';
+import { CarCardComponent } from './car-card/car-card.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { LayoutOfferComponent } from './layout/offer/layout-offer.component';
     LayoutBuildComponent,
     LayoutCompareComponent,
     LayoutFinancialComponent,
-    LayoutOfferComponent
+    LayoutOfferComponent,
+    CarCardComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'compare', component: LayoutCompareComponent },
   { path: 'build', component: LayoutBuildComponent },
   { path: 'offer', component: LayoutOfferComponent },
-  { path: 'porschefinancialservices', component: LayoutFinancialComponent }
+  { path: 'porschefinancialservices', component: LayoutFinancialComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
