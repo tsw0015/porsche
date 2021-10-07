@@ -14,7 +14,8 @@ import { LayoutHomeComponent } from './layout/home/layout-home.component';
 import { LayoutFinancialComponent } from './layout/financial/layout-financial.component';
 import { LayoutOfferComponent } from './layout/offer/layout-offer.component';
 import { CarCardComponent } from './car-card/car-card.component';
-
+import { HttpClientModule } from "@angular/common/http";
+import { UserInfoComponent } from './headers/user-info.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +30,13 @@ import { CarCardComponent } from './car-card/car-card.component';
     LayoutCompareComponent,
     LayoutFinancialComponent,
     LayoutOfferComponent,
-    CarCardComponent
+    CarCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
