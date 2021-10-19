@@ -1,4 +1,6 @@
-import { Component, Input } from "@angular/core"
+import { Component, OnInit } from "@angular/core";
+import { CarCard } from "./car-card.model";
+import { CarCardService } from "./car-card.service";
 
 
 @Component({
@@ -7,11 +9,21 @@ import { Component, Input } from "@angular/core"
     styleUrls: ['./car-card.component.css']
 })
 
-export class CarCardComponent {
-    @Input()
-    model!: string;
-    @Input()
-    price!: string;
-    @Input()
-    picture!: string;
+export class CarCardComponent implements OnInit {
+    carInfo: CarCard | undefined;
+    constructor(private carCardService:CarCardService) {
+    }
+
+    ngOnInit(): void {
+        console.log("Registering showUserInfo as a subscriber");
+        this.showUserInfo();
+    }
+
+    
+    showUserInfo() {
+        this.carCardService.getUserInfo().subscribe((data: CarCard) => {
+            console.log(data);
+            this.carInfo = data;
+        })
+    }
 }

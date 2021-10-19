@@ -7,11 +7,11 @@ export const mock_cars = [
     {
         model: "911",
         price: "$101,200",
-        picture: "/home/tyler/angular_ws/porsche/src/assets/718Card.jpg"
+        picture: "/home/tyler/angular_ws/porsche/src/assets/911Card.jpg"
     },
     {
         model: "Taycan",
         price: "$82,700",
-        picture: "/home/tyler/angular_ws/porsche/src/assets/718Card.jpg"
+        picture: "/home/tyler/angular_ws/porsche/src/assets/taycanCard.jpg"
     }
 ]
