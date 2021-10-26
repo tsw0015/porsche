@@ -16,6 +16,11 @@ import { LayoutOfferComponent } from './layout/offer/layout-offer.component';
 import { CarCardComponent } from './car-card/car-card.component';
 import { HttpClientModule } from "@angular/common/http";
 import { UserInfoComponent } from './headers/user-info.component';
+<<<<<<< HEAD
+=======
+import { EditUserInfoComponent } from './headers/edit-user-info.component';
+import { FormsModule } from '@angular/forms';
+>>>>>>> Assignment 8
 
 @NgModule({
   declarations: [
@@ -31,12 +36,22 @@ import { UserInfoComponent } from './headers/user-info.component';
     LayoutFinancialComponent,
     LayoutOfferComponent,
     CarCardComponent,
+<<<<<<< HEAD
     UserInfoComponent
+=======
+    UserInfoComponent,
+    EditUserInfoComponent
+>>>>>>> Assignment 8
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
     HttpClientModule
+=======
+    HttpClientModule,
+    FormsModule
+>>>>>>> Assignment 8
   ],
   providers: [],
   bootstrap: [AppComponent]

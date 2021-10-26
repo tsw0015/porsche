@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import { Component, OnInit } from "@angular/core";
 import { CarCard } from "./car-card.model";
 import { CarCardService } from "./car-card.service";
+=======
+import { Component, Input } from "@angular/core"
+>>>>>>> Assignment 8
 
 
 @Component({
@@ -9,6 +13,7 @@ import { CarCardService } from "./car-card.service";
     styleUrls: ['./car-card.component.css']
 })
 
+<<<<<<< HEAD
 export class CarCardComponent implements OnInit {
     carInfo: CarCard | undefined;
     constructor(private carCardService:CarCardService) {
@@ -26,4 +31,13 @@ export class CarCardComponent implements OnInit {
             this.carInfo = data;
         })
     }
+=======
+export class CarCardComponent {
+    @Input()
+    model!: string;
+    @Input()
+    price!: string;
+    @Input()
+    picture!: string;
+>>>>>>> Assignment 8
 }
