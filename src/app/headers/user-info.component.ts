@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import { HttpClient } from "@angular/common/http";
-=======
->>>>>>> Assignment 8
 import { Component, OnInit } from "@angular/core";
 import { UserInfo } from "./user-info.model";
 import { UserInfoService } from "./user-info.service";
@@ -14,13 +10,8 @@ import { UserInfoService } from "./user-info.service";
 })
 export class UserInfoComponent implements OnInit{
     myInfo: UserInfo | undefined;
-<<<<<<< HEAD
-    constructor(private userInfoService:UserInfoService) {
-=======
-
     constructor(private userInfoService:UserInfoService) {
 
->>>>>>> Assignment 8
     }
 
     ngOnInit(): void {
