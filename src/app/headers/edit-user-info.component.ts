@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { DataBaseService } from "../body/database.service";
 import { UserInfo } from "./user-info.model";
 import { UserInfoService } from "./user-info.service";
 
@@ -7,8 +8,8 @@ import { UserInfoService } from "./user-info.service";
     templateUrl: 'edit-user-info.component.html'
 })
 export class EditUserInfoComponent {
-    constructor(private infoService: UserInfoService) {
-        
+    constructor(private infoService: UserInfoService, private dbService:DataBaseService) {
+        this.dbService.showData();
     }
     onUpdateUserInfo(data:UserInfo) {
         this.infoService.modifyUserInfo(data).subscribe(data => {

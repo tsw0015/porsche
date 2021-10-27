@@ -17,6 +17,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { UserInfoComponent } from './headers/user-info.component';
 import { EditUserInfoComponent } from './headers/edit-user-info.component';
 import { FormsModule } from '@angular/forms';
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
 
 
 @NgModule({
@@ -41,7 +43,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig, 'porsche')
 
 
   ],
