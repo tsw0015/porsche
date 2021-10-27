@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'porsche';
-    src: url('porsche.woff2') format('woff2'),
-        url('porsche.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
