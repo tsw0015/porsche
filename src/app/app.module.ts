@@ -19,6 +19,7 @@ import { EditUserInfoComponent } from './headers/edit-user-info.component';
 import { FormsModule } from '@angular/forms';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
+import { AuthComponent } from './auth/auth.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     LayoutOfferComponent,
     CarCardComponent,
     UserInfoComponent,
-    EditUserInfoComponent
+    EditUserInfoComponent,
+    AuthComponent
 
   ],
   imports: [

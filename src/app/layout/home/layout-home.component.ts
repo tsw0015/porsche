@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mock_cars } from "/home/tyler/angular_ws/porsche/src/app/car-card/mock-cars";
-import { Car } from "/home/tyler/angular_ws/porsche/src/app/car-card/car.model";
+import { Car } from "src/app/car-card/car.model";
+import { mock_cars } from "src/app/car-card/mock-cars";
 
 @Component ({
     selector: 'app-layout-home',

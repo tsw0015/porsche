@@ -5,6 +5,7 @@ import { LayoutBuildComponent } from './layout/build/layout-build.component';
 import { LayoutOfferComponent } from './layout/offer/layout-offer.component';
 import { LayoutFinancialComponent } from './layout/financial/layout-financial.component';
 import { LayoutHomeComponent } from './layout/home/layout-home.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   { path: 'home', component: LayoutHomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'build', component: LayoutBuildComponent },
   { path: 'offer', component: LayoutOfferComponent },
   { path: 'porschefinancialservices', component: LayoutFinancialComponent },
+  { path: 'auth', component: AuthComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
