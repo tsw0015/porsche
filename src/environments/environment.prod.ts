@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: "AIzaSyAuouY53kujjbp3dGn6z8Ah_CHFRf_roic",
+  apiKey: "AIzaSyAuouY53kujjbp3dGn6z8Ah_CHFRf_roic",
 
   authDomain: "porsche-21768.firebaseapp.com",
 
